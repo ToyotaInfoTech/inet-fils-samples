@@ -1,0 +1,6 @@
+[submodule "inet-fils"]
+	path = inet-fils
+	url = git@github.com:ToyotaInfoTech/inet-fils.git
+[submodule "veins"]
+	path = veins
+	url = git@github.com:sommer/veins.git

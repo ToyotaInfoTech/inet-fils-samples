@@ -1,0 +1,7 @@
+out/
+.settings/
+.qtenvrc
+samples/grid/results
+.cproject
+.oppbuildspec
+Makefile

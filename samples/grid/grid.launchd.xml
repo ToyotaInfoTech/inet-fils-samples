@@ -1,0 +1,7 @@
+<!-- Copyright (C) 2023 TOYOTA MOTOR CORPORATION. ALL RIGHTS RESERVED. -->
+
+<launch>
+  <copy file="grid.net.xml"/>
+  <copy file="grid.rou.xml"/>
+  <copy file="grid.sumocfg" type="config"/>
+</launch>

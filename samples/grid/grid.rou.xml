@@ -1,0 +1,7 @@
+<!-- Copyright (C) 2023 TOYOTA MOTOR CORPORATION. ALL RIGHTS RESERVED. -->
+
+<routes>
+  <vType id="car" accel="4.5" decel="4.5" sigma="1.0" length="4" minGap="2.5" maxSpeed="13.89" guiShape="passenger" />
+  <route id="1" edges="1/0to1/1 1/1to1/2 1/2to2/2 2/2to2/1 2/1to1/1 1/1to0/1 0/1to0/0 0/0to1/0"/>
+  <vehicle id="0" type="car" route="1" depart="1"/>
+</routes>

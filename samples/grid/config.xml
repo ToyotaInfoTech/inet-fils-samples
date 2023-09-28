@@ -1,0 +1,9 @@
+<!-- Copyright (C) 2023 TOYOTA MOTOR CORPORATION. ALL RIGHTS RESERVED. -->
+
+<config>
+    <interface hosts="wifiRouter" address="172.16.1.1" netmask="/24"/>
+    <interface hosts="accessPoint*" names="wlan0" address="192.168.100.x" netmask="/16"/>
+    <interface hosts="*" address="172.16.x.x" netmask="/24"/>
+    <!-- Default gateway for access points and servers -->
+    <route hosts="*Server accessPoint*" destination="*" gateway="172.16.1.1" metric="100"/>
+</config>
